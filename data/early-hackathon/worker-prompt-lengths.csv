@@ -1,0 +1,9 @@
+run_id,task,old_prompt_characters,previous_scoped_round_characters,new_prompt_characters,full_task_source_included,own_module_contract_only,risk_boundaries_included,sha256
+2026-11-08-fulfillment-scoped-r1,fulfillment,72025,,25771,False,True,True,4bb324cbfcf13f475dae026e2f4ab4dd07f5fe6707f8f83d80db24fc46f49bd3
+2026-11-08-fulfillment-scoped-r1,exchange-views,72218,,25518,False,True,True,e1213c576f9251ce52b1207460a410b6cf21958a08456fba91d7293370a70a92
+2026-11-08-fulfillment-scoped-r1,foundation,62073,,20341,False,True,True,4bacf327f710f29733dad0a6331db539d96f8cfc84ca75c0458a66ef213c62e5
+2026-11-08-fulfillment-scoped-r1,merchandising,71906,,23369,False,True,True,ba594760ef90f0a5ccea7835eb9b090f3e2ba6b23c9d53e6f6be2a17f01d71c0
+2026-11-08-fulfillment-scoped-r2,fulfillment,72025,25771,26749,False,True,True,4c62ed56f400ffdd449513eec08e57556fa30abeacf13e6050ac5bfeba95fc2c
+2026-11-08-fulfillment-scoped-r2,exchange-views,72218,25518,26501,False,True,True,7e1c996077ff5990ff743f319f56116969263b038e5206b10f08cc8f5c38a57b
+2026-11-08-fulfillment-scoped-r2,foundation,62073,20341,20993,False,True,True,60dde72892900ed50509df7891fdc3c6585910ced370ce8e267707f9737135c7
+2026-11-08-fulfillment-scoped-r2,merchandising,71906,23369,24325,False,True,True,51e6d55256287abdb8341bb234385f9656d7257796099809c41ae356bc500c83

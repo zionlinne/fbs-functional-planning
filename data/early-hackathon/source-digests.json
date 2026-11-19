@@ -1,0 +1,63 @@
+{
+  "task_sha256": {
+    "docsearch": "1005b4632f422c886f1331ce343c79e9de2bcff305dcc6fc6453e25c7db4f0b3",
+    "fulfillment": "f6d8a77bed02a73c9502e30eaf38ffe7a12f2a12f6c6605baff68b05bf1a8ae3"
+  },
+  "runs": [
+    {
+      "run_id": "2026-11-06-docsearch-pr5",
+      "source": "docsearch-native-20261106",
+      "task_sha256": "1005b4632f422c886f1331ce343c79e9de2bcff305dcc6fc6453e25c7db4f0b3",
+      "events_sha256": "1242ecefede8c5841db38c68254c12b631c4fd9d94a481ed1d41143bcad10f1d",
+      "records_sha256": {
+        "run/events.jsonl": "1242ecefede8c5841db38c68254c12b631c4fd9d94a481ed1d41143bcad10f1d",
+        "run/official-acceptance-1.json": "b01ed6a27bd49cac8fe7fedd4e444d64f3865faee1e7a131cb3b68169c9db06f",
+        "result.json": "7477673679fd29d75613deeb0ac50efb22ec3420cb225fb2013971030d6f503d"
+      }
+    },
+    {
+      "run_id": "2026-11-07-docsearch-pass",
+      "source": "Raw_JSON_Evidence_20261108.zip/03_historical_success/original_docsearch",
+      "task_sha256": "1005b4632f422c886f1331ce343c79e9de2bcff305dcc6fc6453e25c7db4f0b3",
+      "events_sha256": "a9be83812e5c1bb6578ff8cd161154e10b21fd3e4fd3971358a63ad16d68b548",
+      "records_sha256": {
+        "events.jsonl": "a9be83812e5c1bb6578ff8cd161154e10b21fd3e4fd3971358a63ad16d68b548",
+        "official-acceptance-1.json": "189840620586995d56e851d95d759336eccb10e969b01910872ee537eaf19a63",
+        "launch-meta.json": "01059f689de8eb8cee4a828c1879fcd5257b654e8c3058760beeaac46ab37d79"
+      }
+    },
+    {
+      "run_id": "2026-11-07-docsearch-rejected",
+      "source": "Raw_JSON_Evidence_20261108.zip/02_historical_final_acceptance_rejection/docsearch_two_failed_cases",
+      "task_sha256": "1005b4632f422c886f1331ce343c79e9de2bcff305dcc6fc6453e25c7db4f0b3",
+      "events_sha256": "2b8ab54757fa5885b53005b0c93e2526b6133e266cff38c51a4405674aac97fc",
+      "records_sha256": {
+        "events.jsonl": "2b8ab54757fa5885b53005b0c93e2526b6133e266cff38c51a4405674aac97fc",
+        "official-acceptance-1.json": "dda68386c259316083058bf5adc117f0122c6b5f69d0c6a908b33ddf890c0e94",
+        "launch-meta.json": "bf5624cda814858623a921f33c110e1a6db924a47e873af65a3ff5b6eccc5ca1"
+      }
+    },
+    {
+      "run_id": "2026-11-08-fulfillment-scoped-r1",
+      "source": "C-scoped-rerun-20261108",
+      "task_sha256": "f6d8a77bed02a73c9502e30eaf38ffe7a12f2a12f6c6605baff68b05bf1a8ae3",
+      "events_sha256": "11181597e19be24df6a81d2955d2a3bc824250305c611c7692c8ec9c1bda45f7",
+      "records_sha256": {
+        "run/events.jsonl": "11181597e19be24df6a81d2955d2a3bc824250305c611c7692c8ec9c1bda45f7",
+        "run/official-acceptance-1.json": "f43f865d99eb0663b9e8405eb460ee4008ccd21448d8d328687bb51ae89cb84b",
+        "result.json": "a2a1776779d8c91ae754a23b8e8e12e43dd93cf41146fc9b81f275716b19f70c"
+      }
+    },
+    {
+      "run_id": "2026-11-08-fulfillment-scoped-r2",
+      "source": "C-scoped-rerun-round2-20261108",
+      "task_sha256": "f6d8a77bed02a73c9502e30eaf38ffe7a12f2a12f6c6605baff68b05bf1a8ae3",
+      "events_sha256": "708c7ad419e9a1aeace07a3091cf167f17aa3ad3944c46c82a324a2213941778",
+      "records_sha256": {
+        "run/events.jsonl": "708c7ad419e9a1aeace07a3091cf167f17aa3ad3944c46c82a324a2213941778",
+        "run/official-acceptance-1.json": "ad3f3148577a5e294bc68613fc024326932bae8378d5b0c94ce99446bb0dc3a3",
+        "result.json": "2a258c07c884898fb304a2098acbbd5664bfbf5ce54a85c08993e45258172d34"
+      }
+    }
+  ]
+}

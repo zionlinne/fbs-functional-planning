@@ -1,0 +1,356 @@
+run_id,verification_stage,case_index,case_name,status,assertions_executed,invocations
+2026-11-06-docsearch-pr5,final,1,document creation and canonical tags,passed,6,2
+2026-11-06-docsearch-pr5,final,2,version conflict and failed request reuse,passed,6,2
+2026-11-06-docsearch-pr5,final,3,immutable history and reverse diff,passed,6,2
+2026-11-06-docsearch-pr5,final,4,delete tombstone restore and history,passed,18,6
+2026-11-06-docsearch-pr5,final,5,rollback all prior changes on middle failure,passed,9,3
+2026-11-06-docsearch-pr5,final,6,idempotent replay after intervening mutation and canonical keys,passed,13,5
+2026-11-06-docsearch-pr5,final,7,search seed,passed,4,1
+2026-11-06-docsearch-pr5,final,8,all term scores and stable ties,passed,3,1
+2026-11-06-docsearch-pr5,final,9,any pagination tag conjunction,passed,6,2
+2026-11-06-docsearch-pr5,final,10,phrase boundaries and repeated terms,passed,9,3
+2026-11-06-docsearch-pr5,final,11,tokenization and empty queries,passed,3,1
+2026-11-06-docsearch-pr5,final,12,list tags and active statistics,passed,3,1
+2026-11-06-docsearch-pr5,final,13,deleted docs disappear from index,passed,5,2
+2026-11-06-docsearch-pr5,final,14,JSONL deterministic export and BOM CRLF import,passed,6,2
+2026-11-06-docsearch-pr5,final,15,reject import malformed,passed,6,2
+2026-11-06-docsearch-pr5,final,16,reject import interior-blank,passed,6,2
+2026-11-06-docsearch-pr5,final,17,reject import bare-cr,passed,6,2
+2026-11-06-docsearch-pr5,final,18,reject import duplicate,passed,6,2
+2026-11-06-docsearch-pr5,final,19,reject import extra,passed,6,2
+2026-11-06-docsearch-pr5,final,20,import conflict rollback and empty export,passed,9,3
+2026-11-06-docsearch-pr5,final,21,invalid command 0,passed,3,1
+2026-11-06-docsearch-pr5,final,22,invalid command 1,passed,3,1
+2026-11-06-docsearch-pr5,final,23,invalid command 2,passed,3,1
+2026-11-06-docsearch-pr5,final,24,invalid command 3,passed,3,1
+2026-11-06-docsearch-pr5,final,25,invalid command 4,passed,3,1
+2026-11-06-docsearch-pr5,final,26,invalid command 5,passed,3,1
+2026-11-06-docsearch-pr5,final,27,invalid command 6,passed,3,1
+2026-11-06-docsearch-pr5,final,28,invalid command 7,passed,3,1
+2026-11-06-docsearch-pr5,final,29,invalid command 8,passed,3,1
+2026-11-06-docsearch-pr5,final,30,invalid command 9,passed,3,1
+2026-11-06-docsearch-pr5,final,31,invalid command 10,passed,3,1
+2026-11-06-docsearch-pr5,final,32,strict malformed envelopes and UTF-8,passed,12,4
+2026-11-06-docsearch-pr5,final,33,missing versions and active restore conflicts,passed,6,2
+2026-11-06-docsearch-pr5,final,34,HTTP status protocol persistence and CLI interoperability,passed,12,1
+2026-11-06-docsearch-pr5,final,35,HTTP concurrent batches and rollback snapshot,passed,3,0
+2026-11-07-docsearch-pass,final,1,document creation and canonical tags,passed,6,2
+2026-11-07-docsearch-pass,final,2,version conflict and failed request reuse,passed,6,2
+2026-11-07-docsearch-pass,final,3,immutable history and reverse diff,passed,6,2
+2026-11-07-docsearch-pass,final,4,delete tombstone restore and history,passed,18,6
+2026-11-07-docsearch-pass,final,5,rollback all prior changes on middle failure,passed,9,3
+2026-11-07-docsearch-pass,final,6,idempotent replay after intervening mutation and canonical keys,passed,13,5
+2026-11-07-docsearch-pass,final,7,search seed,passed,4,1
+2026-11-07-docsearch-pass,final,8,all term scores and stable ties,passed,3,1
+2026-11-07-docsearch-pass,final,9,any pagination tag conjunction,passed,6,2
+2026-11-07-docsearch-pass,final,10,phrase boundaries and repeated terms,passed,9,3
+2026-11-07-docsearch-pass,final,11,tokenization and empty queries,passed,3,1
+2026-11-07-docsearch-pass,final,12,list tags and active statistics,passed,3,1
+2026-11-07-docsearch-pass,final,13,deleted docs disappear from index,passed,5,2
+2026-11-07-docsearch-pass,final,14,JSONL deterministic export and BOM CRLF import,passed,6,2
+2026-11-07-docsearch-pass,final,15,reject import malformed,passed,6,2
+2026-11-07-docsearch-pass,final,16,reject import interior-blank,passed,6,2
+2026-11-07-docsearch-pass,final,17,reject import bare-cr,passed,6,2
+2026-11-07-docsearch-pass,final,18,reject import duplicate,passed,6,2
+2026-11-07-docsearch-pass,final,19,reject import extra,passed,6,2
+2026-11-07-docsearch-pass,final,20,import conflict rollback and empty export,passed,9,3
+2026-11-07-docsearch-pass,final,21,invalid command 0,passed,3,1
+2026-11-07-docsearch-pass,final,22,invalid command 1,passed,3,1
+2026-11-07-docsearch-pass,final,23,invalid command 2,passed,3,1
+2026-11-07-docsearch-pass,final,24,invalid command 3,passed,3,1
+2026-11-07-docsearch-pass,final,25,invalid command 4,passed,3,1
+2026-11-07-docsearch-pass,final,26,invalid command 5,passed,3,1
+2026-11-07-docsearch-pass,final,27,invalid command 6,passed,3,1
+2026-11-07-docsearch-pass,final,28,invalid command 7,passed,3,1
+2026-11-07-docsearch-pass,final,29,invalid command 8,passed,3,1
+2026-11-07-docsearch-pass,final,30,invalid command 9,passed,3,1
+2026-11-07-docsearch-pass,final,31,invalid command 10,passed,3,1
+2026-11-07-docsearch-pass,final,32,strict malformed envelopes and UTF-8,passed,12,4
+2026-11-07-docsearch-pass,final,33,missing versions and active restore conflicts,passed,6,2
+2026-11-07-docsearch-pass,final,34,HTTP status protocol persistence and CLI interoperability,passed,12,1
+2026-11-07-docsearch-pass,final,35,HTTP concurrent batches and rollback snapshot,passed,3,0
+2026-11-07-docsearch-rejected,final,1,document creation and canonical tags,passed,6,2
+2026-11-07-docsearch-rejected,final,2,version conflict and failed request reuse,passed,6,2
+2026-11-07-docsearch-rejected,final,3,immutable history and reverse diff,passed,6,2
+2026-11-07-docsearch-rejected,final,4,delete tombstone restore and history,passed,18,6
+2026-11-07-docsearch-rejected,final,5,rollback all prior changes on middle failure,passed,9,3
+2026-11-07-docsearch-rejected,final,6,idempotent replay after intervening mutation and canonical keys,passed,13,5
+2026-11-07-docsearch-rejected,final,7,search seed,passed,4,1
+2026-11-07-docsearch-rejected,final,8,all term scores and stable ties,passed,3,1
+2026-11-07-docsearch-rejected,final,9,any pagination tag conjunction,passed,6,2
+2026-11-07-docsearch-rejected,final,10,phrase boundaries and repeated terms,passed,9,3
+2026-11-07-docsearch-rejected,final,11,tokenization and empty queries,passed,3,1
+2026-11-07-docsearch-rejected,final,12,list tags and active statistics,passed,3,1
+2026-11-07-docsearch-rejected,final,13,deleted docs disappear from index,passed,5,2
+2026-11-07-docsearch-rejected,final,14,JSONL deterministic export and BOM CRLF import,passed,6,2
+2026-11-07-docsearch-rejected,final,15,reject import malformed,passed,6,2
+2026-11-07-docsearch-rejected,final,16,reject import interior-blank,passed,6,2
+2026-11-07-docsearch-rejected,final,17,reject import bare-cr,passed,6,2
+2026-11-07-docsearch-rejected,final,18,reject import duplicate,passed,6,2
+2026-11-07-docsearch-rejected,final,19,reject import extra,passed,6,2
+2026-11-07-docsearch-rejected,final,20,import conflict rollback and empty export,passed,9,3
+2026-11-07-docsearch-rejected,final,21,invalid command 0,passed,3,1
+2026-11-07-docsearch-rejected,final,22,invalid command 1,passed,3,1
+2026-11-07-docsearch-rejected,final,23,invalid command 2,passed,3,1
+2026-11-07-docsearch-rejected,final,24,invalid command 3,passed,3,1
+2026-11-07-docsearch-rejected,final,25,invalid command 4,passed,3,1
+2026-11-07-docsearch-rejected,final,26,invalid command 5,passed,3,1
+2026-11-07-docsearch-rejected,final,27,invalid command 6,failed,3,1
+2026-11-07-docsearch-rejected,final,28,invalid command 7,passed,3,1
+2026-11-07-docsearch-rejected,final,29,invalid command 8,passed,3,1
+2026-11-07-docsearch-rejected,final,30,invalid command 9,passed,3,1
+2026-11-07-docsearch-rejected,final,31,invalid command 10,passed,3,1
+2026-11-07-docsearch-rejected,final,32,strict malformed envelopes and UTF-8,failed,12,4
+2026-11-07-docsearch-rejected,final,33,missing versions and active restore conflicts,passed,6,2
+2026-11-07-docsearch-rejected,final,34,HTTP status protocol persistence and CLI interoperability,passed,12,1
+2026-11-07-docsearch-rejected,final,35,HTTP concurrent batches and rollback snapshot,passed,3,0
+2026-11-08-fulfillment-scoped-r1,final,1,harness-ready,passed,1,0
+2026-11-08-fulfillment-scoped-r1,final,2,public-material-independent-arithmetic-audit,passed,9,0
+2026-11-08-fulfillment-scoped-r1,final,3,public-flow-cli-and-request-replay,passed,148,2
+2026-11-08-fulfillment-scoped-r1,final,4,public-rollback-keeps-clock-audit-cache-and-state,passed,22,5
+2026-11-08-fulfillment-scoped-r1,final,5,public-http-flow-real-socket-restart-and-cli,passed,15,7
+2026-11-08-fulfillment-scoped-r1,final,6,all-entities-read-shapes-filter-pagination-noop-audit,passed,94,2
+2026-11-08-fulfillment-scoped-r1,final,7,FEFO-expiry-priority-warehouse-lot-ASCII-null,passed,155,1
+2026-11-08-fulfillment-scoped-r1,final,8,stock-adjust-move-disabled-source-uniqueness-and-zero,passed,58,7
+2026-11-08-fulfillment-scoped-r1,final,9,discount-largest-remainder-tie-merge-and-BigInt-intermediate,passed,18,1
+2026-11-08-fulfillment-scoped-r1,final,10,multiple-refunds-cumulative-rounding-original-lot-restoration-idempotency,passed,92,10
+2026-11-08-fulfillment-scoped-r1,final,11,zero-total-orders-require-pay-price-and-coupon-freeze-disabled-history,passed,31,4
+2026-11-08-fulfillment-scoped-r1,final,12,reservation-expiry-is-explicit-boundary-cancelled-pending-sorted,passed,28,2
+2026-11-08-fulfillment-scoped-r1,final,13,reservation-expired-boundary-rejects-order.create,passed,10,2
+2026-11-08-fulfillment-scoped-r1,final,14,reservation-expired-boundary-rejects-order.pay,passed,10,2
+2026-11-08-fulfillment-scoped-r1,final,15,paid-reservation-ttl-no-longer-limits-ship,passed,18,2
+2026-11-08-fulfillment-scoped-r1,final,16,lot-expiry-equality-rejects-order.create,passed,23,3
+2026-11-08-fulfillment-scoped-r1,final,17,lot-expiry-equality-rejects-order.pay,passed,23,3
+2026-11-08-fulfillment-scoped-r1,final,18,lot-expiry-equality-rejects-order.ship,passed,23,3
+2026-11-08-fulfillment-scoped-r1,final,19,lot-expiry-equality-rejects-stock.adjust,passed,23,3
+2026-11-08-fulfillment-scoped-r1,final,20,lot-expiry-equality-rejects-stock.move,passed,23,3
+2026-11-08-fulfillment-scoped-r1,final,21,return-after-lot-expiry-and-disable-restocks-original-unusable-lot,passed,19,2
+2026-11-08-fulfillment-scoped-r1,final,22,coupon-start-inclusive-end-exclusive-and-minimum,passed,21,4
+2026-11-08-fulfillment-scoped-r1,final,23,pending-cancel-after-expiry-and-new-reservation-warehouse-restriction,passed,122,2
+2026-11-08-fulfillment-scoped-r1,final,24,atomic-failure-restores-entities-reserved-clock-audit-and-business-cache,passed,32,5
+2026-11-08-fulfillment-scoped-r1,final,25,batch-fingerprint-key-order-default-presence-replay-clock,passed,62,12
+2026-11-08-fulfillment-scoped-r1,final,26,overflow-ttl-and-aggregate-not-temporary-product,passed,30,6
+2026-11-08-fulfillment-scoped-r1,final,27,return-allocation-order-invalid-returns-and-paid-cancel,passed,55,10
+2026-11-08-fulfillment-scoped-r1,final,28,order-and-stock-filter-pagination-and-sales-window,passed,29,3
+2026-11-08-fulfillment-scoped-r1,final,29,validation-seed,passed,11,1
+2026-11-08-fulfillment-scoped-r1,final,30,input-unknown-op,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,31,input-unknown-command-field,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,32,input-unknown-nested-field,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,33,input-numeric-string,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,34,input-float-price,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,35,input-unsafe-price,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,36,input-null-active,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,37,input-string-active,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,38,input-empty-name,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,39,input-unicode-codepoint-name-limit,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,40,input-id-format,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,41,input-missing-field,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,42,input-null-field,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,43,input-list-zero-limit,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,44,input-list-big-limit,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,45,input-list-negative-offset,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,46,input-list-float-offset,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,47,input-boolean-usableOnly,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,48,input-zero-qty,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,49,input-too-large-qty,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,50,input-zero-delta,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,51,input-delta-range,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,52,input-missing-expiresAt,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,53,input-null-ttl,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,54,input-ttl-upper-bound,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,55,input-duplicate-warehouse,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,56,input-empty-warehouses,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,57,input-merged-qty-limit,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,58,input-empty-lines,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,59,input-quote-null-coupon,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,60,input-coupon-value-range,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,61,input-coupon-window,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,62,input-invalid-status,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,63,input-invalid-reservation-status,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,64,input-time-window-order,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,65,input-time-window-sales,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,66,input-null-audit-entity,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,67,input-empty-audit-op,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,68,input-export-skUs-extra-filter,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,69,input-negative-pay,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,70,input-structure-before-missing-reference,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,71,input-missing-reference,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,72,input-missing-quote-sku,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,73,input-missing-coupon,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,74,input-missing-filter-is-empty,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,75,input-lot-expiry-on-receive,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,76,envelope-unknown-top,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,77,envelope-missing-now,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,78,envelope-null-now,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,79,envelope-negative-now,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,80,envelope-float-now,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,81,envelope-string-now,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,82,envelope-unsafe-now,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,83,envelope-empty-commands,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,84,envelope-null-command,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,85,envelope-array-command,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,86,envelope-too-many-commands,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,87,envelope-missing-id,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,88,envelope-invalid-id,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,89,envelope-null-id,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,90,envelope-missing-dir,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,91,envelope-null-dir,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,92,wire-malformed-json,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,93,wire-invalid-utf8,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,94,wire-null-json,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,95,wire-array-json,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,96,valid-duplicate-json-keys-last-value-negative-zero-unicode-codepoints,passed,11,1
+2026-11-08-fulfillment-scoped-r1,final,97,relative-dir-resolves-against-process-cwd,passed,9,2
+2026-11-08-fulfillment-scoped-r1,final,98,cli-unreadable-input-and-unwritable-output,passed,10,2
+2026-11-08-fulfillment-scoped-r1,final,99,ordinary-store-IO-error-uses-protocol-not-internal-layout,passed,6,1
+2026-11-08-fulfillment-scoped-r1,final,100,reference-business-state-errors-and-partial-allocation-rollback,passed,49,9
+2026-11-08-fulfillment-scoped-r1,final,101,csv-quotes-comma-CR-LF-BOM-roundtrip-single-audit-and-noop,passed,27,2
+2026-11-08-fulfillment-scoped-r1,final,102,csv-stock-import-export-filters-and-reserved-onHand,passed,18,1
+2026-11-08-fulfillment-scoped-r1,final,103,csv-error-empty-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,104,csv-error-reordered-header-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,105,csv-error-duplicate-header-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,106,csv-error-column-count-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,107,csv-error-empty-data-line-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,108,csv-error-extra-terminator-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,109,csv-error-unclosed-quote-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,110,csv-error-quote-in-unquoted-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,111,csv-error-after-close-quote-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,112,csv-error-leading-zero-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,113,csv-error-plus-number-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,114,csv-error-space-number-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,115,csv-error-fraction-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,116,csv-error-boolean-case-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,117,csv-error-range-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,118,csv-error-duplicate-id-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,119,csv-error-quoted-tail-space-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r1,final,120,csv-later-business-error-rolls-back-all-rows-and-prefix,passed,40,8
+2026-11-08-fulfillment-scoped-r1,final,121,http-empty-health-snapshot-transmission-routing-status-priority,passed,71,20
+2026-11-08-fulfillment-scoped-r1,final,122,http-batch-validation-business-errors-status-and-envelope,passed,49,12
+2026-11-08-fulfillment-scoped-r1,final,123,http-concurrent-batches-serialize-and-snapshot-never-sees-half-transaction,passed,503,57
+2026-11-08-fulfillment-scoped-r1,final,124,http-business-idempotency-cross-restart-and-cli-interoperability,passed,16,7
+2026-11-08-fulfillment-scoped-r1,final,125,all-33-operations-exercised,passed,2,0
+2026-11-08-fulfillment-scoped-r2,final,1,harness-ready,passed,1,0
+2026-11-08-fulfillment-scoped-r2,final,2,public-material-independent-arithmetic-audit,passed,9,0
+2026-11-08-fulfillment-scoped-r2,final,3,public-flow-cli-and-request-replay,passed,148,2
+2026-11-08-fulfillment-scoped-r2,final,4,public-rollback-keeps-clock-audit-cache-and-state,passed,22,5
+2026-11-08-fulfillment-scoped-r2,final,5,public-http-flow-real-socket-restart-and-cli,passed,15,7
+2026-11-08-fulfillment-scoped-r2,final,6,all-entities-read-shapes-filter-pagination-noop-audit,passed,94,2
+2026-11-08-fulfillment-scoped-r2,final,7,FEFO-expiry-priority-warehouse-lot-ASCII-null,passed,155,1
+2026-11-08-fulfillment-scoped-r2,final,8,stock-adjust-move-disabled-source-uniqueness-and-zero,passed,58,7
+2026-11-08-fulfillment-scoped-r2,final,9,discount-largest-remainder-tie-merge-and-BigInt-intermediate,passed,18,1
+2026-11-08-fulfillment-scoped-r2,final,10,multiple-refunds-cumulative-rounding-original-lot-restoration-idempotency,passed,92,10
+2026-11-08-fulfillment-scoped-r2,final,11,zero-total-orders-require-pay-price-and-coupon-freeze-disabled-history,passed,31,4
+2026-11-08-fulfillment-scoped-r2,final,12,reservation-expiry-is-explicit-boundary-cancelled-pending-sorted,passed,28,2
+2026-11-08-fulfillment-scoped-r2,final,13,reservation-expired-boundary-rejects-order.create,passed,10,2
+2026-11-08-fulfillment-scoped-r2,final,14,reservation-expired-boundary-rejects-order.pay,passed,10,2
+2026-11-08-fulfillment-scoped-r2,final,15,paid-reservation-ttl-no-longer-limits-ship,passed,18,2
+2026-11-08-fulfillment-scoped-r2,final,16,lot-expiry-equality-rejects-order.create,passed,23,3
+2026-11-08-fulfillment-scoped-r2,final,17,lot-expiry-equality-rejects-order.pay,passed,23,3
+2026-11-08-fulfillment-scoped-r2,final,18,lot-expiry-equality-rejects-order.ship,passed,23,3
+2026-11-08-fulfillment-scoped-r2,final,19,lot-expiry-equality-rejects-stock.adjust,passed,23,3
+2026-11-08-fulfillment-scoped-r2,final,20,lot-expiry-equality-rejects-stock.move,passed,23,3
+2026-11-08-fulfillment-scoped-r2,final,21,return-after-lot-expiry-and-disable-restocks-original-unusable-lot,passed,19,2
+2026-11-08-fulfillment-scoped-r2,final,22,coupon-start-inclusive-end-exclusive-and-minimum,passed,21,4
+2026-11-08-fulfillment-scoped-r2,final,23,pending-cancel-after-expiry-and-new-reservation-warehouse-restriction,passed,122,2
+2026-11-08-fulfillment-scoped-r2,final,24,atomic-failure-restores-entities-reserved-clock-audit-and-business-cache,passed,32,5
+2026-11-08-fulfillment-scoped-r2,final,25,batch-fingerprint-key-order-default-presence-replay-clock,passed,62,12
+2026-11-08-fulfillment-scoped-r2,final,26,overflow-ttl-and-aggregate-not-temporary-product,passed,30,6
+2026-11-08-fulfillment-scoped-r2,final,27,return-allocation-order-invalid-returns-and-paid-cancel,passed,55,10
+2026-11-08-fulfillment-scoped-r2,final,28,order-and-stock-filter-pagination-and-sales-window,passed,29,3
+2026-11-08-fulfillment-scoped-r2,final,29,validation-seed,passed,11,1
+2026-11-08-fulfillment-scoped-r2,final,30,input-unknown-op,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,31,input-unknown-command-field,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,32,input-unknown-nested-field,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,33,input-numeric-string,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,34,input-float-price,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,35,input-unsafe-price,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,36,input-null-active,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,37,input-string-active,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,38,input-empty-name,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,39,input-unicode-codepoint-name-limit,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,40,input-id-format,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,41,input-missing-field,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,42,input-null-field,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,43,input-list-zero-limit,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,44,input-list-big-limit,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,45,input-list-negative-offset,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,46,input-list-float-offset,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,47,input-boolean-usableOnly,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,48,input-zero-qty,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,49,input-too-large-qty,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,50,input-zero-delta,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,51,input-delta-range,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,52,input-missing-expiresAt,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,53,input-null-ttl,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,54,input-ttl-upper-bound,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,55,input-duplicate-warehouse,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,56,input-empty-warehouses,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,57,input-merged-qty-limit,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,58,input-empty-lines,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,59,input-quote-null-coupon,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,60,input-coupon-value-range,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,61,input-coupon-window,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,62,input-invalid-status,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,63,input-invalid-reservation-status,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,64,input-time-window-order,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,65,input-time-window-sales,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,66,input-null-audit-entity,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,67,input-empty-audit-op,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,68,input-export-skUs-extra-filter,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,69,input-negative-pay,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,70,input-structure-before-missing-reference,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,71,input-missing-reference,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,72,input-missing-quote-sku,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,73,input-missing-coupon,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,74,input-missing-filter-is-empty,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,75,input-lot-expiry-on-receive,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,76,envelope-unknown-top,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,77,envelope-missing-now,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,78,envelope-null-now,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,79,envelope-negative-now,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,80,envelope-float-now,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,81,envelope-string-now,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,82,envelope-unsafe-now,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,83,envelope-empty-commands,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,84,envelope-null-command,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,85,envelope-array-command,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,86,envelope-too-many-commands,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,87,envelope-missing-id,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,88,envelope-invalid-id,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,89,envelope-null-id,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,90,envelope-missing-dir,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,91,envelope-null-dir,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,92,wire-malformed-json,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,93,wire-invalid-utf8,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,94,wire-null-json,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,95,wire-array-json,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,96,valid-duplicate-json-keys-last-value-negative-zero-unicode-codepoints,passed,11,1
+2026-11-08-fulfillment-scoped-r2,final,97,relative-dir-resolves-against-process-cwd,passed,9,2
+2026-11-08-fulfillment-scoped-r2,final,98,cli-unreadable-input-and-unwritable-output,passed,10,2
+2026-11-08-fulfillment-scoped-r2,final,99,ordinary-store-IO-error-uses-protocol-not-internal-layout,passed,6,1
+2026-11-08-fulfillment-scoped-r2,final,100,reference-business-state-errors-and-partial-allocation-rollback,passed,49,9
+2026-11-08-fulfillment-scoped-r2,final,101,csv-quotes-comma-CR-LF-BOM-roundtrip-single-audit-and-noop,passed,27,2
+2026-11-08-fulfillment-scoped-r2,final,102,csv-stock-import-export-filters-and-reserved-onHand,passed,18,1
+2026-11-08-fulfillment-scoped-r2,final,103,csv-error-empty-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,104,csv-error-reordered-header-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,105,csv-error-duplicate-header-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,106,csv-error-column-count-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,107,csv-error-empty-data-line-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,108,csv-error-extra-terminator-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,109,csv-error-unclosed-quote-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,110,csv-error-quote-in-unquoted-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,111,csv-error-after-close-quote-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,112,csv-error-leading-zero-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,113,csv-error-plus-number-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,114,csv-error-space-number-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,115,csv-error-fraction-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,116,csv-error-boolean-case-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,117,csv-error-range-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,118,csv-error-duplicate-id-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,119,csv-error-quoted-tail-space-atomic,passed,11,2
+2026-11-08-fulfillment-scoped-r2,final,120,csv-later-business-error-rolls-back-all-rows-and-prefix,passed,40,8
+2026-11-08-fulfillment-scoped-r2,final,121,http-empty-health-snapshot-transmission-routing-status-priority,passed,71,20
+2026-11-08-fulfillment-scoped-r2,final,122,http-batch-validation-business-errors-status-and-envelope,passed,49,12
+2026-11-08-fulfillment-scoped-r2,final,123,http-concurrent-batches-serialize-and-snapshot-never-sees-half-transaction,passed,503,57
+2026-11-08-fulfillment-scoped-r2,final,124,http-business-idempotency-cross-restart-and-cli-interoperability,passed,16,7
+2026-11-08-fulfillment-scoped-r2,final,125,all-33-operations-exercised,passed,2,0
