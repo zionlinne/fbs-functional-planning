@@ -1,0 +1,90 @@
+{
+  "run_id": "2026-11-03-fbs-baseline",
+  "scheduler_revision_label": "local-dev",
+  "elapsed_seconds": 528.248634,
+  "scheduler_max_in_flight": 3,
+  "recorded_parallel_native_workers": 3,
+  "external_model_api_calls": 0,
+  "task_states": {
+    "__contract_integration__": "ACCEPTED",
+    "__contract_composition__": "ACCEPTED",
+    "foundation": "ACCEPTED",
+    "merchandising": "ACCEPTED",
+    "fulfillment": "ACCEPTED",
+    "exchange-views": "ACCEPTED",
+    "transports": "ACCEPTED"
+  },
+  "verifier_summary": {
+    "passed": 125,
+    "failed": 0,
+    "error": 0,
+    "assertions": 2599
+  },
+  "module_execution": {
+    "status": "passed",
+    "required_files": [
+      "cli.mjs",
+      "lib/base.mjs",
+      "lib/catalog.mjs",
+      "lib/engine.mjs",
+      "lib/fulfillment.mjs",
+      "lib/interchange.mjs",
+      "lib/views.mjs",
+      "server.mjs"
+    ],
+    "files": {
+      "cli.mjs": {
+        "loaded": true,
+        "function_called": false,
+        "has_functions": false,
+        "entrypoint": true
+      },
+      "lib/base.mjs": {
+        "loaded": true,
+        "function_called": true,
+        "has_functions": true,
+        "entrypoint": false
+      },
+      "lib/catalog.mjs": {
+        "loaded": true,
+        "function_called": true,
+        "has_functions": true,
+        "entrypoint": false
+      },
+      "lib/engine.mjs": {
+        "loaded": true,
+        "function_called": true,
+        "has_functions": true,
+        "entrypoint": false
+      },
+      "lib/fulfillment.mjs": {
+        "loaded": true,
+        "function_called": true,
+        "has_functions": true,
+        "entrypoint": false
+      },
+      "lib/interchange.mjs": {
+        "loaded": true,
+        "function_called": true,
+        "has_functions": true,
+        "entrypoint": false
+      },
+      "lib/views.mjs": {
+        "loaded": true,
+        "function_called": true,
+        "has_functions": true,
+        "entrypoint": false
+      },
+      "server.mjs": {
+        "loaded": true,
+        "function_called": true,
+        "has_functions": true,
+        "entrypoint": true
+      }
+    },
+    "not_loaded": [],
+    "no_function_calls": [],
+    "coverage_file_count": 320
+  },
+  "source_report_sha256": "ece1f6a76c4d4386e66d84f38551e733614bb0448dde3b2ff93cd6c135d63573"
+}

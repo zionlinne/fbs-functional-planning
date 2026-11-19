@@ -15,5 +15,6 @@ python -m pip install pytest
 python -m pytest -q
 ```
 
-This initial version contains the implementation snapshot and its software tests. Study data, analysis scripts, and run-to-revision mappings are pending. The tests above check the software snapshot.
+## Independent pre-hackathon data
 
+[Pre-hackathon FBS runs](data/pre-hackathon/) contains the structured records of eight executions of the same fulfillment task on 2–3 November 2026. It includes the paper's historical baseline, per-case acceptance outcomes, the scheduler event timelines, and source digests. The baseline logs identify the scheduler revision as `local-dev`.

@@ -1,0 +1,139 @@
+{
+  "task_sha256": "f6d8a77bed02a73c9502e30eaf38ffe7a12f2a12f6c6605baff68b05bf1a8ae3",
+  "runs": [
+    {
+      "run_id": "2026-11-02-api-original",
+      "events": {
+        "archive_or_folder": "fulfill-original-evidence.zip",
+        "path": "experiment/run-original-2/events.jsonl",
+        "sha256": "a68e6bebffb5bddc5dabc413e8809638d773f39de1f328f885c32b500b3635e3"
+      },
+      "verifier_reports": [
+        {
+          "stage": "post_run",
+          "archive_or_folder": "fulfill-original-evidence.zip",
+          "path": "experiment/official-acceptance.json",
+          "sha256": "284df010facca7095d01b4923f0df8685aeebdb8fd58e808d16b89bd10b70ee8"
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-02-native",
+      "events": {
+        "archive_or_folder": "fulfill-native-evidence.zip",
+        "path": "run/events.jsonl",
+        "sha256": "8967930b34632e511235325f2ef2db56e9d9d11c6d13b1b8162f44992c58b896"
+      },
+      "verifier_reports": [
+        {
+          "stage": "final",
+          "archive_or_folder": "outputs",
+          "path": "fulfill-native-acceptance.json",
+          "sha256": "36aafb1d0c8bf57a0e035c323b439c8f91d9810cbd37f01a94fcb69a9b2eee56"
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-03-api-032224",
+      "events": {
+        "archive_or_folder": "fulfill-88api-deepseek-20261103-032224-logs.zip",
+        "path": "events.jsonl",
+        "sha256": "648fb215b2822f56ac38cb3ad07c1a24ffb2a095a6d280c1fc4ebfce60cf43a4"
+      },
+      "verifier_reports": [
+        {
+          "stage": "later_manual_verification",
+          "archive_or_folder": "fulfill-88api-deepseek-20261103-032224-logs.zip",
+          "path": "manual-verify-v3-report.json",
+          "sha256": "41ca0c36bfa6ceed085a5aab548a0d94483ba34fa4c036dab5eeda073cc3555d"
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-03-formal-continuation",
+      "events": {
+        "archive_or_folder": "fulfill-formal-continuation-evidence.zip",
+        "path": "events.jsonl",
+        "sha256": "e584098fbaed3efa9d4513c7e2d1df84c1c841e4e131ee2c17b2d68fb4c00974"
+      },
+      "verifier_reports": [
+        {
+          "stage": "continuation_root",
+          "archive_or_folder": "fulfill-formal-continuation-evidence.zip",
+          "path": "official-acceptance-1.json",
+          "sha256": "6960947fc42ac94e28dceca9a558809cc416ee9fb5d431bf089f5caf567236a5"
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-03-modular-replay",
+      "events": {
+        "archive_or_folder": "local-modular-fulfillment-20261103-175956",
+        "path": "run/events.jsonl",
+        "sha256": "2a0348202f9079b4f2348134c3576e36d6db029c980002162528a3264e6ea49c"
+      },
+      "verifier_reports": [
+        {
+          "stage": "final",
+          "archive_or_folder": "local-modular-fulfillment-20261103-175956",
+          "path": "run/official-acceptance-1.json",
+          "sha256": "68cc6753d30da8c35207ffabc673bee452e328a1f207f50a4bf0219c8cab0daf"
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-03-native-fresh-repair",
+      "events": {
+        "archive_or_folder": "fresh-native-fulfillment",
+        "path": "run/events.jsonl",
+        "sha256": "c9f5f9db99dc517f1f8b0f32759488cdeb63847e1b5244011ffa3c816780deb6"
+      },
+      "verifier_reports": [
+        {
+          "stage": "initial",
+          "archive_or_folder": "fresh-native-fulfillment",
+          "path": "run/official-acceptance-1.json",
+          "sha256": "ca7f78999ddedd5bcbdd72555ba654a1b4a00da9974373fe6a4d1ad4c6cd2a62"
+        },
+        {
+          "stage": "after_repair",
+          "archive_or_folder": "fresh-native-fulfillment",
+          "path": "run/official-acceptance-2.json",
+          "sha256": "a33c368dd4be9589ea9a3e74bb638a110fad89be2f9c273a53d132a391d61e86"
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-03-native-parallel-revision",
+      "events": {
+        "archive_or_folder": "parallel-native-fulfillment",
+        "path": "run/events.jsonl",
+        "sha256": "d2759ec10cb7153b0c5b8c96e6c795cc4521e2db9e75ead0502986d67bff5e92"
+      },
+      "verifier_reports": [
+        {
+          "stage": "final",
+          "archive_or_folder": "parallel-native-fulfillment",
+          "path": "run/official-acceptance-1.json",
+          "sha256": "b9283dd0b0f39e8a1c9c3cf17101e0c7372f98c6253122664c8baf6c144acb72"
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-03-fbs-baseline",
+      "events": {
+        "archive_or_folder": "DAR-Research-Handoff-20261105-v02",
+        "path": "evidence/run/events.jsonl",
+        "sha256": "53d2c86d3a61d9e42de4586592feb7c73932075bf0c9058141d6d7d3540a8852"
+      },
+      "verifier_reports": [
+        {
+          "stage": "final",
+          "archive_or_folder": "DAR-Research-Handoff-20261105-v02",
+          "path": "evidence/run/official-acceptance-1.json",
+          "sha256": "974b4851e6c63e2c1232e5f89889106bd9c77ef646ce2524abbd43cb9c03f06c"
+        }
+      ]
+    }
+  ]
+}
